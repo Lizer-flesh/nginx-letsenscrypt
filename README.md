@@ -23,4 +23,15 @@
   
  ### Использование
  
-  
+  Для корректной работы необходимо указать в server_name ваш домен (аналогично для 13 строки)
+   ![image](https://user-images.githubusercontent.com/60391056/191952387-9e59cd8f-1540-4cf2-8c5f-84ecadc54c7c.png)
+
+   Также необходимо подставить ваш домен в строки ssl_certificate и ssl_certificate_key
+   ![image](https://user-images.githubusercontent.com/60391056/191953785-1e50efcf-705d-4193-abb1-93a3e3a8540c.png)
+   
+   Для строки proxy_pass после http:// укажите имя вашего докер контейнера, запушенного на dockerhub
+   ![image](https://user-images.githubusercontent.com/60391056/191954336-8bc6b591-2395-4aa2-a0e9-ea53455ec296.png)
+
+   
+
+
