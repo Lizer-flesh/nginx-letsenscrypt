@@ -29,13 +29,13 @@
    Также необходимо подставить ваш домен в строки `ssl_certificate` и `ssl_certificate_key`
    ![image](https://user-images.githubusercontent.com/60391056/191953785-1e50efcf-705d-4193-abb1-93a3e3a8540c.png)
    
-   Для строки `proxy_pass` после http:// укажите имя вашего докер контейнера, запушенного на dockerhub
+   Для строки `proxy_pass` после http:// укажите имя вашего докер контейнера, которое вы задаёте в nginx.docker-compose.yml файле.
    ![image](https://user-images.githubusercontent.com/60391056/191954336-8bc6b591-2395-4aa2-a0e9-ea53455ec296.png)
 
   ## **3. nginx.docker-compose.yml**
   ### Что это?
   
-  Файл для запуска докер-контейнера
+  Файл для запуска докер-контейнера. Ваш docker-image должен быть запушен на dockerhub.
   
    ### Использование
    Для докер-контейнера необходимо в `app:` указать имя контейнера, и image вашего приложения
