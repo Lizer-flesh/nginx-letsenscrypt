@@ -1,5 +1,5 @@
 # nginx-letsencrypt-docker 
-__________________________
+
 ## **1. init-letsencrypt.sh**
 ### Что это?
 
